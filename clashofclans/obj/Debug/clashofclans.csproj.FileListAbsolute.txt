@@ -29,3 +29,34 @@ c:\users\kmu19\documents\visual studio 2017\Projects\clashofclans\clashofclans\o
 c:\users\kmu19\documents\visual studio 2017\Projects\clashofclans\clashofclans\obj\Debug\clashofclans.csproj.GenerateResource.Cache
 c:\users\kmu19\documents\visual studio 2017\Projects\clashofclans\clashofclans\obj\Debug\clashofclans.exe
 c:\users\kmu19\documents\visual studio 2017\Projects\clashofclans\clashofclans\obj\Debug\clashofclans.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\clashofclans.exe.config
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\clashofclans.exe
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\clashofclans.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Core.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.YouTube.v3.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Zlib.Portable.dll
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Core.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.Core.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.PlatformServices.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.YouTube.v3.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Google.Apis.YouTube.v3.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\Zlib.Portable.xml
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.csprojResolveAssemblyReference.cache
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.Form1.resources
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.Properties.Resources.resources
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.csproj.GenerateResource.Cache
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.exe
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.pdb

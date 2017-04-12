@@ -5,13 +5,13 @@ using System.Text;
 
 namespace clashofclans
 {
-    class PageCall
+    public class PageCall
     {
-        public void send(string subject, string content)
+        public void send(string subject, string content, string table)
         {                    
-            String postData = String.Format("subject={0}&content={1}", subject, content);
+            String postData = String.Format("subject={0}&content={1}&table={2}", subject, content, table);
 
-            string url = "http://127.0.0.1/makoroko/bbs/write_update2.php";
+            string url = "http://cocfriend.com/bbs/write_update_video.php";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded; charset=utf-8";
@@ -27,7 +27,7 @@ namespace clashofclans
             }
 
             // Response 처리
-            /*
+            
             string responseText = string.Empty;
             using (WebResponse resp = request.GetResponse())
             {
@@ -37,7 +37,7 @@ namespace clashofclans
                     responseText = sr.ReadToEnd();
                 }               
             }
-            */
+            
         }
     }
 }
