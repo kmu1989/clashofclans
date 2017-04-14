@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lb_table = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_auto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -66,7 +67,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(799, 245);
+            this.button1.Location = new System.Drawing.Point(799, 293);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -93,7 +94,7 @@
             // 
             this.Column1.HeaderText = "제목";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 400;
+            this.Column1.Width = 530;
             // 
             // Column2
             // 
@@ -116,7 +117,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(799, 47);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(394, 141);
+            this.dataGridView2.Size = new System.Drawing.Size(394, 222);
             this.dataGridView2.TabIndex = 7;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             this.dataGridView2.SelectionChanged += new System.EventHandler(this.dataGridView2_SelectionChanged);
@@ -166,11 +167,22 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btn_auto
+            // 
+            this.btn_auto.Location = new System.Drawing.Point(1114, 12);
+            this.btn_auto.Name = "btn_auto";
+            this.btn_auto.Size = new System.Drawing.Size(75, 23);
+            this.btn_auto.TabIndex = 11;
+            this.btn_auto.Text = "auto";
+            this.btn_auto.UseVisualStyleBackColor = true;
+            this.btn_auto.Click += new System.EventHandler(this.btn_auto_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1201, 536);
+            this.Controls.Add(this.btn_auto);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lb_table);
             this.Controls.Add(this.label1);
@@ -194,9 +206,6 @@
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -204,6 +213,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lb_table;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Button btn_auto;
     }
 }
 
