@@ -60,3 +60,7 @@ C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.Pro
 C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.csproj.GenerateResource.Cache
 C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.exe
 C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.pdb
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\clashofclans.exe.manifest
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\bin\Debug\clashofclans.application
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.exe.manifest
+C:\Users\kmu19\Source\Repos\clashofclans\clashofclans\obj\Debug\clashofclans.application

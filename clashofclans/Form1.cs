@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
+using System.Timers;
 using System.Windows.Forms;
 
 
@@ -99,27 +100,12 @@ namespace clashofclans
                 }
             }
         }
-
+               
         private void btn_auto_Click(object sender, EventArgs e)
-        {          
-
-            for (int i = 0; i < dataGridView2.Rows.Count; i++)
-            {
-                Delay(3000);
-                txtSearch.Text = dataGridView2.Rows[i].Cells[0].Value.ToString();
-                lb_table.Text = dataGridView2.Rows[i].Cells[1].Value.ToString();
-
-                youtubeSerche();
-                Delay(3000);
-
-                youtubeRegister();
-                Delay(50000);
-
-                dataGridView2.Rows[i].Cells[2].Value = "업로드 완료";
-            }
-
+        {
+            timer1.Start();
         }
-
+        
         public void youtubeSerche()
         {
             dataGridView1.Rows.Clear();
@@ -196,7 +182,27 @@ namespace clashofclans
 
             return DateTime.Now;
         }
-                
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridView2.Rows.Count; i++)
+            {
+                Delay(3000);
+                txtSearch.Text = dataGridView2.Rows[i].Cells[0].Value.ToString();
+                lb_table.Text = dataGridView2.Rows[i].Cells[1].Value.ToString();
+
+                youtubeSerche();
+                Delay(3000);
+
+                youtubeRegister();
+                Delay(50000);
+
+                dataGridView2.Rows[i].Cells[2].Value = "업로드 완료";
+            }
+
+            for (int i = 0; i < dataGridView2.Rows.Count; i++)
+                dataGridView2.Rows[i].Cells[2].Value = "";
+
+        }
     }
 }

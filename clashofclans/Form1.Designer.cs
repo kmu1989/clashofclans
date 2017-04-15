@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             this.lb_table = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.btn_auto = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -177,6 +179,11 @@
             this.btn_auto.UseVisualStyleBackColor = true;
             this.btn_auto.Click += new System.EventHandler(this.btn_auto_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1800000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -217,6 +224,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Button btn_auto;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
